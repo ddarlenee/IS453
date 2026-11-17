@@ -1,0 +1,147 @@
+{
+ "retained": [
+  "EXT_SOURCE_1",
+  "BUR_DEBT_RATIO",
+  "BUR_MEAN_DAYS_CREDIT",
+  "BUR_CARD_UTIL",
+  "BUR_NEWEST_DAYS",
+  "BUR_ACTIVE_SHARE",
+  "NAME_EDUCATION_TYPE",
+  "OCCUPATION_TYPE",
+  "REGION_RATING_CLIENT_W_CITY",
+  "BUR_CNT_LAST_24M",
+  "DAYS_LAST_PHONE_CHANGE",
+  "ORGANIZATION_TYPE",
+  "AGE_YEARS",
+  "REGION_POPULATION_RELATIVE",
+  "BUR_NUM_ACTIVE",
+  "BUR_CNT_CLOSED",
+  "OWN_CAR_AGE",
+  "YEARS_EMPLOYED",
+  "BUR_ANY_ADVERSE",
+  "NAME_INCOME_TYPE",
+  "FLAG_DOCUMENT_3",
+  "NAME_HOUSING_TYPE",
+  "REG_CITY_NOT_WORK_CITY",
+  "REG_CITY_NOT_LIVE_CITY",
+  "AMT_INCOME_TOTAL"
+ ],
+ "breaks_list": {
+  "EXT_SOURCE_1": [
+   0.2,
+   0.4,
+   0.54,
+   0.64
+  ],
+  "BUR_DEBT_RATIO": [
+   0.25,
+   0.5,
+   0.75
+  ],
+  "BUR_MEAN_DAYS_CREDIT": [
+   -1300.0,
+   -750.0,
+   -400.0
+  ],
+  "BUR_CARD_UTIL": [
+   0.4,
+   0.75,
+   0.9500000000000001
+  ],
+  "BUR_NEWEST_DAYS": [
+   -600.0,
+   -200.0,
+   -50.0
+  ],
+  "BUR_ACTIVE_SHARE": [
+   0.28,
+   0.42,
+   0.62
+  ],
+  "NAME_EDUCATION_TYPE": [
+   "Academic degree%,%Higher education",
+   "Incomplete higher%,%Secondary / secondary special%,%Lower secondary"
+  ],
+  "OCCUPATION_TYPE": [
+   "Accountants%,%High skill tech staff",
+   "Managers%,%Core staff%,%Private service staff%,%Realty agents%,%Medicine staff%,%IT staff",
+   "Cleaning staff%,%HR staff%,%Secretaries%,%Waiters/barmen staff%,%Sales staff%,%Drivers%,%Cooking staff%,%Laborers%,%Security staff%,%Low-skill Laborers"
+  ],
+  "REGION_RATING_CLIENT_W_CITY": [
+   2.0,
+   3.0
+  ],
+  "BUR_CNT_LAST_24M": [
+   1.0,
+   2.0,
+   5.0
+  ],
+  "DAYS_LAST_PHONE_CHANGE": [
+   -1500.0,
+   -1100.0
+  ],
+  "ORGANIZATION_TYPE": [
+   "Trade: type 5%,%Security Ministries%,%Transport: type 1%,%Industry: type 12%,%University%,%Bank%,%Military%,%Industry: type 6%,%Police%,%Culture%,%Industry: type 2",
+   "Trade: type 4%,%School%,%Services%,%Mobile%,%Insurance%,%Trade: type 2%,%Industry: type 9%,%Medicine%,%Emergency%,%Government%,%Kindergarten%,%Housing%,%Trade: type 6%,%Other%,%Hotel%,%Telecom",
+   "Electricity%,%Industry: type 11%,%Transport: type 4%,%Business Entity Type 1%,%Industry: type 5%,%Business Entity Type 2%,%Business Entity Type 3%,%Advertising%,%Industry: type 1%,%Transport: type 2",
+   "Industry: type 7%,%Trade: type 1%,%Trade: type 7%,%Security%,%Postal%,%Religion%,%Self-employed",
+   "Realtor%,%Legal Services%,%Agriculture%,%Construction%,%Industry: type 3%,%Trade: type 3%,%Industry: type 4%,%Cleaning%,%Restaurant%,%Transport: type 3%,%Industry: type 10%,%Industry: type 8%,%Industry: type 13"
+  ],
+  "AGE_YEARS": [
+   38.0,
+   49.0
+  ],
+  "REGION_POPULATION_RELATIVE": [
+   0.021,
+   0.032,
+   0.036
+  ],
+  "BUR_NUM_ACTIVE": [
+   1.0,
+   2.0,
+   3.0,
+   5.0
+  ],
+  "BUR_CNT_CLOSED": [
+   1.0,
+   2.0,
+   5.0
+  ],
+  "OWN_CAR_AGE": [
+   8.0,
+   12.0,
+   17.0
+  ],
+  "YEARS_EMPLOYED": [
+   3.0
+  ],
+  "BUR_ANY_ADVERSE": [
+   1.0
+  ],
+  "NAME_INCOME_TYPE": [
+   "Businessman%,%State servant",
+   "Commercial associate",
+   "Working"
+  ],
+  "FLAG_DOCUMENT_3": [
+   1.0
+  ],
+  "NAME_HOUSING_TYPE": [
+   "Office apartment%,%House / apartment",
+   "Municipal apartment%,%Co-op apartment",
+   "With parents%,%Rented apartment"
+  ],
+  "REG_CITY_NOT_WORK_CITY": [
+   1.0
+  ],
+  "REG_CITY_NOT_LIVE_CITY": [
+   1.0
+  ],
+  "AMT_INCOME_TOTAL": [
+   90000.0,
+   190000.0,
+   280000.0
+  ]
+ },
+ "train_ratio": 0.7
+}

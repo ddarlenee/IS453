@@ -1,0 +1,18 @@
+,Value
+Applicants: train / test,"50,604 / 21,688 (no overlap, bad rate 9.20% / 9.20%)"
+Characteristics: retained by Component 3 -> final,25 -> 13
+Scaling,"600 points at 1:19 odds of default, 20 points to double"
+Possible score range,429 to 623
+AUC: training / test,0.697 / 0.692
+Cutoff,"494 (odds 5.1:1, PD 16.4%); most profitable 505"
+Test approval rate,89.1%
+Test recall (goods approved),90.5%
+Test specificity (bads rejected),25.2%
+Test bad rate: all -> approved,9.20% -> 7.73%
+Test expected vs actual defaults among approved,"1477 vs 1,493"
+Portfolio interest rate,2.08%
+Risk-based rates,2.33% / 2.14% / 2.00% / 1.87% (lowest to highest score band)
+"Test profit per 10,000 applicants",S$41.4m with actual defaults
+Test profit at the risk-based rates,S$57.4m with actual defaults
+Lowest segment ratio: training / test,0.806 / 0.800
+Segment tables below 0.80 on test,0 of 17

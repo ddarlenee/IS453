@@ -1,0 +1,76 @@
+variable,bin,points,Scorecard
+EXT_SOURCE_1,missing,37.0,Has a bureau file
+EXT_SOURCE_1,"[-inf,0.2)",23.0,Has a bureau file
+EXT_SOURCE_1,"[0.2,0.4)",37.0,Has a bureau file
+EXT_SOURCE_1,"[0.4,0.54)",46.0,Has a bureau file
+EXT_SOURCE_1,"[0.54,0.64)",53.0,Has a bureau file
+EXT_SOURCE_1,"[0.64,inf)",62.0,Has a bureau file
+BUR_DEBT_RATIO,"[-inf,0.25)",45.0,Has a bureau file
+BUR_DEBT_RATIO,"[0.25,0.5)%,%missing",40.0,Has a bureau file
+BUR_DEBT_RATIO,"[0.5,0.75)",36.0,Has a bureau file
+BUR_DEBT_RATIO,"[0.75,inf)",30.0,Has a bureau file
+BUR_MEAN_DAYS_CREDIT,"[-inf,-1300.0)",44.0,Has a bureau file
+BUR_MEAN_DAYS_CREDIT,"[-1300.0,-750.0)",41.0,Has a bureau file
+BUR_MEAN_DAYS_CREDIT,"[-750.0,-400.0)",37.0,Has a bureau file
+BUR_MEAN_DAYS_CREDIT,"[-400.0,inf)",33.0,Has a bureau file
+BUR_CARD_UTIL,missing,41.0,Has a bureau file
+BUR_CARD_UTIL,"[-inf,0.4)",47.0,Has a bureau file
+BUR_CARD_UTIL,"[0.4,0.75)",40.0,Has a bureau file
+BUR_CARD_UTIL,"[0.75,0.9500000000000001)",32.0,Has a bureau file
+BUR_CARD_UTIL,"[0.9500000000000001,inf)",28.0,Has a bureau file
+BUR_NEWEST_DAYS,"[-inf,-600.0)",45.0,Has a bureau file
+BUR_NEWEST_DAYS,"[-600.0,-200.0)",41.0,Has a bureau file
+BUR_NEWEST_DAYS,"[-200.0,-50.0)",36.0,Has a bureau file
+BUR_NEWEST_DAYS,"[-50.0,inf)",31.0,Has a bureau file
+OCCUPATION_TYPE,missing,41.0,Has a bureau file
+OCCUPATION_TYPE,"Accountants%,%High skill tech staff",49.0,Has a bureau file
+OCCUPATION_TYPE,"Managers%,%Core staff%,%Private service staff%,%Realty agents%,%Medicine staff%,%IT staff",45.0,Has a bureau file
+OCCUPATION_TYPE,"Cleaning staff%,%HR staff%,%Secretaries%,%Waiters/barmen staff%,%Sales staff%,%Drivers%,%Cooking staff%,%Laborers%,%Security staff%,%Low-skill Laborers",36.0,Has a bureau file
+DAYS_LAST_PHONE_CHANGE,"[-inf,-1500.0)",45.0,Has a bureau file
+DAYS_LAST_PHONE_CHANGE,"[-1500.0,-1100.0)",41.0,Has a bureau file
+DAYS_LAST_PHONE_CHANGE,"[-1100.0,inf)",37.0,Has a bureau file
+ORGANIZATION_TYPE,"Trade: type 5%,%Security Ministries%,%Transport: type 1%,%Industry: type 12%,%University%,%Bank%,%Military%,%Industry: type 6%,%Police%,%Culture%,%Industry: type 2",56.0,Has a bureau file
+ORGANIZATION_TYPE,"Trade: type 4%,%School%,%Services%,%Mobile%,%Insurance%,%Trade: type 2%,%Industry: type 9%,%Medicine%,%Emergency%,%Government%,%Kindergarten%,%Housing%,%Trade: type 6%,%Other%,%Hotel%,%Telecom",43.0,Has a bureau file
+ORGANIZATION_TYPE,"Electricity%,%Industry: type 11%,%Transport: type 4%,%Business Entity Type 1%,%Industry: type 5%,%Business Entity Type 2%,%Business Entity Type 3%,%Advertising%,%Industry: type 1%,%Transport: type 2",39.0,Has a bureau file
+ORGANIZATION_TYPE,"Industry: type 7%,%Trade: type 1%,%Trade: type 7%,%Security%,%Postal%,%Religion%,%Self-employed",37.0,Has a bureau file
+ORGANIZATION_TYPE,"Realtor%,%Legal Services%,%Agriculture%,%Construction%,%Industry: type 3%,%Trade: type 3%,%Industry: type 4%,%Cleaning%,%Restaurant%,%Transport: type 3%,%Industry: type 10%,%Industry: type 8%,%Industry: type 13",33.0,Has a bureau file
+OWN_CAR_AGE,missing,37.0,Has a bureau file
+OWN_CAR_AGE,"[-inf,8.0)",51.0,Has a bureau file
+OWN_CAR_AGE,"[8.0,12.0)",45.0,Has a bureau file
+OWN_CAR_AGE,"[12.0,17.0)",39.0,Has a bureau file
+OWN_CAR_AGE,"[17.0,inf)",37.0,Has a bureau file
+YEARS_EMPLOYED,"[-inf,3.0)",36.0,Has a bureau file
+YEARS_EMPLOYED,"[3.0,inf)",42.0,Has a bureau file
+BUR_ANY_ADVERSE,"[-inf,1.0)",44.0,Has a bureau file
+BUR_ANY_ADVERSE,"[1.0,inf)",30.0,Has a bureau file
+NAME_INCOME_TYPE,"Businessman%,%State servant",44.0,Has a bureau file
+NAME_INCOME_TYPE,Commercial associate,41.0,Has a bureau file
+NAME_INCOME_TYPE,Working,38.0,Has a bureau file
+FLAG_DOCUMENT_3,"[-inf,1.0)",49.0,Has a bureau file
+FLAG_DOCUMENT_3,"[1.0,inf)",37.0,Has a bureau file
+EXT_SOURCE_1,missing,61.0,No bureau file
+EXT_SOURCE_1,"[-inf,0.2)",48.0,No bureau file
+EXT_SOURCE_1,"[0.2,0.4)",65.0,No bureau file
+EXT_SOURCE_1,"[0.4,0.64)",78.0,No bureau file
+EXT_SOURCE_1,"[0.64,inf)",94.0,No bureau file
+OCCUPATION_TYPE,missing,66.0,No bureau file
+OCCUPATION_TYPE,"Accountants%,%High skill tech staff",71.0,No bureau file
+OCCUPATION_TYPE,"Managers%,%Core staff%,%Private service staff%,%Realty agents%,%Medicine staff%,%IT staff",70.0,No bureau file
+OCCUPATION_TYPE,"Cleaning staff%,%HR staff%,%Secretaries%,%Waiters/barmen staff%,%Sales staff%,%Drivers%,%Cooking staff%,%Laborers%,%Security staff%,%Low-skill Laborers",62.0,No bureau file
+DAYS_LAST_PHONE_CHANGE,"[-inf,-1500.0)",74.0,No bureau file
+DAYS_LAST_PHONE_CHANGE,"[-1500.0,-1100.0)",66.0,No bureau file
+DAYS_LAST_PHONE_CHANGE,"[-1100.0,inf)",62.0,No bureau file
+ORGANIZATION_TYPE,"Trade: type 5%,%Security Ministries%,%Transport: type 1%,%Industry: type 12%,%University%,%Bank%,%Military%,%Industry: type 6%,%Police%,%Culture%,%Industry: type 2%,%Trade: type 4%,%School%,%Services%,%Mobile%,%Insurance%,%Trade: type 2%,%Industry: type 9%,%Medicine%,%Emergency%,%Government%,%Kindergarten%,%Housing%,%Trade: type 6%,%Other%,%Hotel%,%Telecom",71.0,No bureau file
+ORGANIZATION_TYPE,"Electricity%,%Industry: type 11%,%Transport: type 4%,%Business Entity Type 1%,%Industry: type 5%,%Business Entity Type 2%,%Business Entity Type 3%,%Advertising%,%Industry: type 1%,%Transport: type 2",66.0,No bureau file
+ORGANIZATION_TYPE,"Industry: type 7%,%Trade: type 1%,%Trade: type 7%,%Security%,%Postal%,%Religion%,%Self-employed",61.0,No bureau file
+ORGANIZATION_TYPE,"Realtor%,%Legal Services%,%Agriculture%,%Construction%,%Industry: type 3%,%Trade: type 3%,%Industry: type 4%,%Cleaning%,%Restaurant%,%Transport: type 3%,%Industry: type 10%,%Industry: type 8%,%Industry: type 13",54.0,No bureau file
+OWN_CAR_AGE,missing,64.0,No bureau file
+OWN_CAR_AGE,"[-inf,8.0)",68.0,No bureau file
+OWN_CAR_AGE,"[8.0,inf)",65.0,No bureau file
+YEARS_EMPLOYED,"[-inf,3.0)",62.0,No bureau file
+YEARS_EMPLOYED,"[3.0,inf)",67.0,No bureau file
+NAME_INCOME_TYPE,"Businessman%,%State servant",71.0,No bureau file
+NAME_INCOME_TYPE,Commercial associate,71.0,No bureau file
+NAME_INCOME_TYPE,Working,62.0,No bureau file
+FLAG_DOCUMENT_3,"[-inf,1.0)",77.0,No bureau file
+FLAG_DOCUMENT_3,"[1.0,inf)",61.0,No bureau file

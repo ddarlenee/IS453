@@ -1,0 +1,26 @@
+,IV,Missing_pct,Fairness_flag,Review_note
+EXT_SOURCE_1,0.1621,48.5,False,"External score: the strongest characteristic, missing for about half of applicants; being missing is itself informative. It plays the role a credit bureau score would (FA7.2 s7)."
+BUR_DEBT_RATIO,0.1218,16.9,False,"Bureau debt / credit, over credits with known debt (amounts owed, FA7.2 s6). Missing means no usable bureau debt data, which is not the same as zero debt."
+BUR_MEAN_DAYS_CREDIT,0.1041,14.0,False,"Average age of bureau credits: length of credit history (time at bureau, FA7.2 s6)."
+BUR_CARD_UTIL,0.0941,49.9,False,Credit card debt / card credit: total utilisation (FA7.2 s6). Missing means no file or no card with a known balance.
+BUR_NEWEST_DAYS,0.0743,14.0,False,"Days since the most recent credit was opened (recent trades, FA7.2 s6)."
+BUR_ACTIVE_SHARE,0.0754,14.0,False,"Share of bureau credits still active (amounts owed, FA7.2 s6)."
+NAME_EDUCATION_TYPE,0.0746,0.0,True,"Education: predictive, but a socio-economic proxy (FA7.1 s14)."
+OCCUPATION_TYPE,0.0679,16.5,True,"Occupation groups: capacity to repay (FA7.1 s10); groups formed automatically, review for sense."
+REGION_RATING_CLIENT_W_CITY,0.067,0.0,True,City-adjusted region rating: same concern as REGION_RATING_CLIENT.
+BUR_CNT_LAST_24M,0.056,14.0,False,"Credits opened in the last 24 months (trades opened recently, FA7.2 s6)."
+DAYS_LAST_PHONE_CHANGE,0.0492,0.0,False,"Days since the applicant last changed phone: can be read as stability, but has no clear causal story for a mortgage."
+ORGANIZATION_TYPE,0.0524,0.0,True,"Employer type: employment status (FA7.2 s6); groups formed automatically, review for sense and fairness."
+AGE_YEARS,0.0447,0.0,True,"Age: monotonic and predictive, but a protected characteristic; already used to define the segment (21-55)."
+REGION_POPULATION_RELATIVE,0.0428,0.0,True,Population density of the region: a geographic proxy with no direct Singapore meaning.
+BUR_NUM_ACTIVE,0.0406,14.0,False,"Number of active bureau credits (total trades, FA7.2 s6)."
+BUR_CNT_CLOSED,0.038,14.0,False,Number of closed bureau credits: length and depth of credit history (FA7.2 s6).
+OWN_CAR_AGE,0.0373,63.7,False,"Age of the applicant's car; blank means no car (structurally missing, FA9.1 s5). Car ownership is more common among men, and in Singapore a car's COE lasts 10 years, so the older-car bins may rarely apply."
+YEARS_EMPLOYED,0.0353,0.0,False,"Time in the current job (time at employment, FA7.2 s6): income stability, part of capacity (FA7.1 s10). Split once at 3 years so that it measures stability rather than seniority."
+BUR_ANY_ADVERSE,0.0326,14.0,False,"Any overdue now, ever overdue, or sold / written-off credit: payment history (number of delinquencies, FA7.2 s6)."
+NAME_INCOME_TYPE,0.031,0.0,False,Income type: employment status (FA7.2 s6).
+FLAG_DOCUMENT_3,0.0295,0.0,False,Whether document 3 was provided: no clear causal story; would need confirming for a mortgage application.
+NAME_HOUSING_TYPE,0.0263,0.0,True,"Current living arrangement (residential status, FA7.2 s6); every applicant owns no property, so it describes how they live now."
+REG_CITY_NOT_WORK_CITY,0.0239,0.0,False,Registered city differs from work city: same concern as REG_CITY_NOT_LIVE_CITY.
+REG_CITY_NOT_LIVE_CITY,0.0223,0.0,False,"Registered city differs from living city: Singapore is a single city, so this cannot be collected locally."
+AMT_INCOME_TOTAL,0.0211,0.0,False,"Income is not in SGD, so its bins would not transfer to Singapore incomes without rescaling."

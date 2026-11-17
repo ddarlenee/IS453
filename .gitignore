@@ -1,0 +1,27 @@
+# Raw course data: over GitHub's 100 MB file limit and not ours to publish
+App_Data.csv
+Bureau_Data.csv
+IS453 Group Assignment - Application Data.csv
+IS453 Group Assignment - Bureau Data.csv
+IS453 Group Assignment - Data Dict.xlsx
+merged_data_OLD_do_not_use.csv
+
+# Applicant-level rows written by Component 3. Delete these two lines to publish them;
+# Component 4-7 then runs without rerunning Component 3.
+component3_outputs/train.csv
+component3_outputs/test.csv
+
+# Earlier versions, backups and zips
+archive_*/
+*.zip
+
+# Assignment brief and out-of-date notes
+IS453 Group Assignment - Copy.docx
+Component 3 Explained Screening and Grouping Variables.docx
+
+# Editor, system and notebook clutter
+.DS_Store
+*.swp
+.ipynb_checkpoints/
+__pycache__/
+*.report.txt
